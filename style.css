@@ -1,0 +1,141 @@
+body{
+    /* background-color: pink; */
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.img-container{
+    max-width: 100%;
+    height: 40vh;
+    /* border: 2px solid black; */
+    background-image: url('assets/images/image-omelette.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.food-info-container{
+    padding: .8rem;
+    margin: 1rem;
+    padding-top: 0rem;
+    /* border: 1px solid black; */
+}
+.food-name{
+    font-size: 2.5em;
+}
+.food-text{
+    font-weight: 100;
+    color:  hsl(24, 5%, 18%);
+}
+
+.food-prep-container{
+    /* border: 1px solid black; */
+    padding: 1rem;
+    background-color: hsl(330, 100%, 98%);
+    margin: 1rem;
+    border-radius: 10px;
+}
+.food-prep-container h3{
+    color: hsl(332, 51%, 32%);
+}
+.food-prep-container li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-container{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid hsl(30, 18%, 87%) ;
+    padding: 1rem;
+    padding-top: 0;
+    margin: 1rem;
+}
+.ingredients-container h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 2em;
+}
+.ingredients-list{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+.ingredients-container li{
+    color: hsl(24, 5%, 18%);
+}
+.ingredients-container li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.instructions-container{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 1rem;
+    padding: 1rem;
+}
+.instructions-container h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 2em;
+}
+.instructions-container li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.instructions-list{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+.instructions-container li{
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition-container{
+    /* border: 1px solid black; */
+    padding: 1rem;
+    margin: 1rem;
+}
+.nutrition-container h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 2em;
+}
+.nutrition-container p{
+    color: hsl(24, 5%, 18%);
+}
+
+.recipe-card{
+    background-color: white;
+}
+
+.nutrition-table{
+    /* border: 1px solid black; */
+    border-collapse:collapse;
+    font-size: 1.2rem;
+    min-width: 100%;
+}
+.nutrition-table td{
+    /* background-color: red; */
+    border-bottom: 1px soild hsl(30, 18%, 87%);
+}
+
+.Nutrition-ammount{
+    color: hsl(332, 51%, 32%);
+
+}
+@media (min-width:768px){
+    .recipe-card{
+        /* border: 2px solid green; */
+        border-radius: 1.5rem;
+        width: 50%;
+    }
+
+    body{
+        background-color: hsl(332, 29%, 81%);
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-container{
+        margin: 1rem;
+        border-radius: 1rem;
+    }
+
+}  
